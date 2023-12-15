@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAANzCmQV/oHE2lLTIN8IzTCgAAAAACAAAAAAAQZgAAAAEAACAAAADiF/NvvIJrGfapHeOJRvlW/6SbssFvlxV8FJ01+c2BtQAAAAAOgAAAAAIAACAAAADIQekGip0krgrDCsEiC0g+ypl3UZ5jjNpQ1PeMC54XwIAAAADPUvxojNmHiPj7VEO1WkM4uCCbjLHBFqDn85yy3pXZEei+ryAwOI6tC9KbGd9YdLdVLDlWaljhmHw92J6/53sDBXc2o88qa+nRKSu2Qt+VTUIisG/JBYWvTB1cm4YYZc2wodXkyi6SYlIiNPQt7Z54bZ7MjF6/PxFgEcgbD6rVhEAAAAA/RwOSKzJVM2NUCKSk3YkMZmXwmP+KOMYbidGghGmUEaIJpxvCcEUF4JCePH9g5+vA5JKr7u8Q9YU9ctM71uye</EncryptedPassword>
+    <History>True|2023-12-15T01:24:30.7693254Z;True|2023-11-21T21:46:31.7618949+07:00;True|2023-11-21T14:35:02.5967937+07:00;True|2023-11-21T13:29:45.0999137+07:00;True|2023-11-20T20:07:23.7068967+07:00;True|2023-11-19T21:41:30.5994535+07:00;True|2023-11-19T21:38:28.3922197+07:00;False|2023-11-19T21:32:49.0662299+07:00;True|2023-11-19T21:31:04.6716148+07:00;True|2023-11-19T21:16:26.7017756+07:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ApiDatabase">
+      <Value>Data Source=tcp:serverairdbserver.database.windows.net,1433%3bInitial Catalog=ServerAir_db%3bUser Id=Weather%40serverairdbserver%3bPassword=Nhung!123</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="DBConnection">
+      <Value>Data Source=tcp:serverairdbserver.database.windows.net,1433%3bInitial Catalog=ServerAir_db%3bUser Id=Weather%40serverairdbserver%3bPassword=Nhung!123</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
